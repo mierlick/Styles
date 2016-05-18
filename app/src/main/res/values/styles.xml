@@ -1,7 +1,7 @@
 <resources>
 
     <!-- Base application theme. -->
-    <style name="DarkTheme" parent="android:Theme">
+    <style name="DarkTheme" parent="Theme.AppCompat">
         <item name="textSizePrimary">22sp</item>
         <item name="textSizeSecondary">20sp</item>
         <item name="textSizeTertiary">18sp</item>
@@ -17,7 +17,7 @@
         <item name="actionMenuTextColor">@color/colorButtonTextDark</item>
     </style>
 
-    <style name="LightTheme" parent="android:Theme.Light">
+    <style name="LightTheme" parent="Theme.AppCompat.Light">
         <item name="textSizePrimary">22sp</item>
         <item name="textSizeSecondary">20sp</item>
         <item name="textSizeTertiary">18sp</item>
@@ -51,6 +51,7 @@
 
     <style name="MyDarkActionBarLogo.Title">
         <item name="android:textColor">@color/colorButtonTextDark</item>
+
     </style>
 
 
