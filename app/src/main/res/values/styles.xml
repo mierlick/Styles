@@ -1,0 +1,57 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="DarkTheme" parent="android:Theme">
+        <item name="textSizePrimary">22sp</item>
+        <item name="textSizeSecondary">20sp</item>
+        <item name="textSizeTertiary">18sp</item>
+        <item name="textSizeButton">18sp</item>
+        <item name="android:windowBackground">@color/colorPrimaryDark</item>
+        <item name="android:textColorPrimary">@color/colorPrimaryTextDark</item>
+        <item name="android:textColorSecondary">@color/colorSecondaryTextDark</item>
+        <item name="android:textColorTertiary">@color/colorTertiaryTextDark</item>
+        <item name="buttonBackground">@drawable/button_dark</item>
+        <item name="textColorButton">@color/colorButtonTextDark</item>
+        <item name="menuDrawable">@drawable/ic_action_toggle_theme_dark</item>
+        <item name="actionBarStyle">@style/MyDarkActionBarLogo</item>
+        <item name="actionMenuTextColor">@color/colorButtonTextDark</item>
+    </style>
+
+    <style name="LightTheme" parent="android:Theme.Light">
+        <item name="textSizePrimary">22sp</item>
+        <item name="textSizeSecondary">20sp</item>
+        <item name="textSizeTertiary">18sp</item>
+        <item name="textSizeButton">18sp</item>
+        <item name="android:windowBackground">@color/colorPrimary</item>
+        <item name="android:textColorPrimary">@color/colorPrimaryText</item>
+        <item name="android:textColorSecondary">@color/colorSecondaryText</item>
+        <item name="android:textColorTertiary">@color/colorTertiaryText</item>
+        <item name="buttonBackground">@drawable/button</item>
+        <item name="textColorButton">@color/colorButtonText</item>
+        <item name="menuDrawable">@drawable/ic_action_toggle_theme_light</item>
+        <item name="actionBarStyle">@style/MyLightActionBarLogo</item>
+        <item name="actionMenuTextColor">@color/colorButtonText</item>
+    </style>
+
+    <style name="MyDarkActionBarLogo" parent="@style/Widget.AppCompat.ActionBar.Solid">
+        <item name="logo">@drawable/ic_launcher_android</item>
+        <item name="displayOptions">useLogo|showHome|showTitle</item>
+        <item name="titleTextStyle">@style/MyDarkActionBarLogo.Title</item>
+    </style>
+
+    <style name="MyLightActionBarLogo" parent="@style/Widget.AppCompat.Light.ActionBar.Solid">
+        <item name="logo">@drawable/ic_launcher_android</item>
+        <item name="displayOptions">useLogo|showHome|showTitle</item>
+        <item name="titleTextStyle">@style/MyLightActionBarLogo.Title</item>
+    </style>
+
+    <style name="MyLightActionBarLogo.Title">
+        <item name="android:textColor">@color/colorButtonText</item>
+    </style>
+
+    <style name="MyDarkActionBarLogo.Title">
+        <item name="android:textColor">@color/colorButtonTextDark</item>
+    </style>
+
+
+</resources>

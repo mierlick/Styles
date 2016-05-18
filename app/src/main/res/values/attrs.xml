@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <attr name="textSizePrimary" format="reference|dimension" />
+    <attr name="textSizeSecondary" format="reference|dimension" />
+    <attr name="textSizeTertiary" format="reference|dimension" />
+    <attr name="textSizeButton" format="reference|dimension" />
+    <attr name="buttonBackground" format="reference|dimension" />
+    <attr name="textColorButton" format="reference|dimension" />
+    <attr name="menuDrawable" format="reference|dimension" />
+</resources>

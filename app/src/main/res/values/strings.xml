@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Styles</string>
+    <string name="primary_text">customTextStylePrimary</string>
+    <string name="secondary_text">customTextStyleSecondary</string>
+    <string name="tertiary_text">customTextStyleTertiary</string>
+    <string name="button_text">customButtonStyle</string>
+    <string name="switch_style_text">Toggle Theme</string>
+</resources>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/primary_text"
+        android:id="@+id/textView"
+        android:layout_gravity="center_horizontal"
+        android:textColor="?android:textColorPrimary"
+        android:textSize="?textSizePrimary" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/secondary_text"
+        android:id="@+id/textView2"
+        android:layout_gravity="center_horizontal"
+        android:textColor="?android:textColorSecondary"
+        android:textSize="?textSizeSecondary" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tertiary_text"
+        android:id="@+id/textView3"
+        android:layout_gravity="center_horizontal"
+        android:textColor="?android:textColorSecondary"
+        android:textSize="?textSizeTertiary" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="?buttonBackground"
+        android:drawableLeft="@drawable/ic_launcher_android"
+        android:text="@string/button_text"
+        android:textSize="?textSizeButton"
+        android:textColor="?textColorButton"
+        android:textAllCaps="false" />
+
+</LinearLayout>
