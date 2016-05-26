@@ -29,7 +29,7 @@
         <item name="buttonBackground">@drawable/button</item>
         <item name="textColorButton">@color/colorButtonText</item>
         <item name="menuDrawable">@drawable/ic_action_toggle_theme_light</item>
-        <item name="actionBarStyle">@style/MyLightActionBarLogo</item>
+        <item name="actionBarStyle">@style/MyLightActionBarLogo</item>ic_launcher_android
         <item name="actionMenuTextColor">@color/colorButtonText</item>
     </style>
 
